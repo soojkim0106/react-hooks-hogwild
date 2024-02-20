@@ -2,6 +2,9 @@ import React from "react";
 import piggy from "../assets/porco.png";
 
 const Nav = () => {
+
+	// const filteredHog = selectedCategory === 'All' ? hogs : hogs.filter((hog) => hog.category === selectedCategory)
+
 	return (
 		<div className="navWrapper">
 			<span className="headerText">HogWild</span>
@@ -12,6 +15,7 @@ const Nav = () => {
 				A React App for County Fair Hog Fans
 			</span>
 		</div>
+		
 	);
 };
 
